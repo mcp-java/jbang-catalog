@@ -2,13 +2,16 @@
   "catalogs": {},
   "aliases": {
     "kubernetes": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-kubernetes:0.0.4"
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-kubernetes:0.0.4",
+      "description": "Interact with your Kubernetes cluster using MCP"
     },
     "containers": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-containers:0.0.4"
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-containers:0.0.4",
+      "description": "Star, stop, and inspect containers using MCP"
     },
     "filesystem": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:0.0.4"
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:0.0.4",
+      "description": "Interact with your filesystem using MCP"
     }
   },
   "templates": {}
