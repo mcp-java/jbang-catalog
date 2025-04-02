@@ -1,0 +1,5 @@
+# JBangHub Catalog for JbangCatalog 
+
+This is a catalog of JBang scripts for JbangCatalog.
+
+Curated and created by the community.

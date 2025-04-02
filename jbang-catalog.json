@@ -1,0 +1,15 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "kubernetes": {
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-kubernetes:0.0.4"
+    },
+    "containers": {
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-containers:0.0.4"
+    },
+    "filesystem": {
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:0.0.4"
+    }
+  },
+  "templates": {}
+}
