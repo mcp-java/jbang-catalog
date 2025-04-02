@@ -19,4 +19,3 @@ You can list these using any of the following commands:
 `npx -y @jbangdev/jbang catalog list quarkus-mcp`
 
 
-
