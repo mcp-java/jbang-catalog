@@ -12,6 +12,10 @@
     "filesystem": {
       "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:0.0.4",
       "description": "Interact with your filesystem using MCP"
+    },
+    "jdbc": {
+      "script-ref": "jdbc@quarkiverse/quarkus-mcp-servers",
+      "description": "Access any JDBC database using MCP"
     }
   },
   "templates": {}
