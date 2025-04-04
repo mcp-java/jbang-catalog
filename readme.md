@@ -1,6 +1,6 @@
-# Quarkus MCP Server Catalog
+# Java MCP Server Catalog
 
-This is a catalog of Quarkus MCP Servers.
+This is a catalog of Java MCP Servers.
 
 Curated and created by the community.
 
@@ -8,19 +8,19 @@ You can list these using any of the following commands:
 
 ### JBang
 
-`jbang catalog list quarkus-mcp`
+`jbang catalog list mcp-java`
 
 ### UVX 
 
-`uvx jbang catalog list quarkus-mcp`
+`uvx jbang catalog list mcp-java`
 
 ### NPM
 
-`npx -y @jbangdev/jbang catalog list quarkus-mcp`
+`npx -y @jbangdev/jbang catalog list mcp-java`
 
 ## Use in MCP Client
 
-Below are example commands for using the MCP Servers in various MCP clients. It uses `containers@quarkus-mcp` as an example but in practice you can use any of the MCP Servers.
+Below are example commands for using the MCP Servers in various MCP clients. It uses `containers@java-mcp` as an example but in practice you can use any of the MCP Servers.
 
 <details>
 <summary>Claude Desktop</summary>
