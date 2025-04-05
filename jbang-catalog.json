@@ -1,21 +1,26 @@
 {
   "catalogs": {},
   "aliases": {
-    "kubernetes": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-kubernetes:0.0.4",
-      "description": "Interact with your Kubernetes cluster using MCP"
-    },
-    "containers": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-containers:0.0.4",
-      "description": "Star, stop, and inspect containers using MCP"
-    },
-    "filesystem": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:0.0.4",
-      "description": "Interact with your filesystem using MCP"
-    },
     "jdbc": {
       "script-ref": "jdbc@quarkiverse/quarkus-mcp-servers",
       "description": "Access any JDBC database using MCP"
+    },
+    "jvminsight": {
+      "script-ref": "io.quarkus.mcp.servers:mcp-server-jvminsight:RELEASE",
+      "description": "Ask questions about your JVM using MCP",
+      "java": "17+"
+    },
+    "kubernetes": {
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-kubernetes:RELEASE",
+      "description": "Interact with your Kubernetes cluster using MCP"
+    },
+    "containers": {
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-containers:RELEASE",
+      "description": "Star, stop, and inspect containers using MCP"
+    },
+    "filesystem": {
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:RELEASE",
+      "description": "Interact with your filesystem using MCP"
     }
   },
   "templates": {}
