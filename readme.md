@@ -1,8 +1,6 @@
 # Java MCP Server Catalog
 
-This is a catalog of Java MCP Servers.
-
-Curated and created by the community.
+This is a catalog of Java MCP Servers driving the [mcp-java.github.io](https://mcp-java.github.io) page.
 
 You can list these using any of the following commands:
 
@@ -20,42 +18,27 @@ You can list these using any of the following commands:
 
 ## Use in MCP Client
 
-Below are example commands for using the MCP Servers in various MCP clients. It uses `containers@java-mcp` as an example but in practice you can use any of the MCP Servers.
+Use [mcp-java.github.io](https://mcp-java.github.io) page to get configuration for various MCP Clients.
 
-<details>
-<summary>Claude Desktop</summary>
 
-Add the following to your `claude_desktop_config.json` file:
+## Contributing your own MCP Server
 
-```json
- {
-  "mcpServers": {
-    "containers": {
-      "command": "jbang",
-      "args": [
-       "containers@quarkus-mcp"
-      ]
-    }
-  }
-}
+We accept any server that are:
+
+- Under an open-source OSI Approved license
+- Runnable with JBang (i.e. Maven coordinate, a https reachable jar or script)
+- has a description
+
+We deserve the right to remove any server that becomes unavailable or deemed a security threat.
+
+To contribute simply git clone this repository and add it, i.e.
+
+```shell
+git clone https://github.com/mcp-java/jbang-catalog
+cd jbang-catalog
+jbang alias add --name funpanda org.acme:funpanda-mcp:1.0.0
 ```
-</details>
 
-<details>
-<summary>Cursor</summary>
+You can also manually edit the `jbang-catalog.json` but above helps verify it actually works.
 
-Add the following to your `mcp.json` file:
-
-```json
- {
-    "mcpServers": {
-      "containers": {
-        "command": "jbang",
-        "args": [
-          "containers@quarkus-mcp"
-        ]
-      }
-    }
-}
-```
-</details>
+Then submit a PR and it will be added if tests passes and show up in the mcp-java catalog.
