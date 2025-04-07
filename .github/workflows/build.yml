@@ -8,4 +8,6 @@ on:
 
 jobs:
   build:
+    with:
+      jbang-trust-add: https://github.com/
     uses: jbanghub/.github/.github/workflows/shared-build.yml@main
