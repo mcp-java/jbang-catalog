@@ -31,7 +31,7 @@ We accept any server that are:
 
 We deserve the right to remove any server that becomes unavailable or deemed a security threat.
 
-To contribute simply git clone this repository and add it, i.e.
+To contribute, git clone this repository and add it, i.e.
 
 ```shell
 git clone https://github.com/mcp-java/jbang-catalog
