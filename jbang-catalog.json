@@ -1,26 +1,26 @@
 {
   "catalogs": {},
   "aliases": {
-    "jdbc": {
-      "script-ref": "jdbc@quarkiverse/quarkus-mcp-servers",
-      "description": "Access any JDBC database using MCP"
-    },
     "jvminsight": {
-      "script-ref": "io.quarkus.mcp.servers:mcp-server-jvminsight:RELEASE",
-      "description": "Ask questions about your JVM using MCP",
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-jvminsight:RELEASE",
+      "description": "Ask questions about your JVM using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jvminsight)",
       "java": "17+"
     },
     "kubernetes": {
       "script-ref": "io.quarkiverse.mcp.servers:mcp-server-kubernetes:RELEASE",
-      "description": "Interact with your Kubernetes cluster using MCP"
+      "description": "Interact with your Kubernetes cluster using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/kubernetes)"
     },
     "containers": {
       "script-ref": "io.quarkiverse.mcp.servers:mcp-server-containers:RELEASE",
-      "description": "Star, stop, and inspect containers using MCP"
+      "description": "Star, stop, and inspect containers using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/containers)"
     },
     "filesystem": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:RELEASE",
-      "description": "Interact with your filesystem using MCP"
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:0.0.4",
+      "description": "Interact with your filesystem using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/filesystem)"
+    },
+    "jdbc": {
+      "script-ref": "jdbc@quarkiverse/quarkus-mcp-servers",
+      "description": "Access any JDBC database using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jdbc)"
     }
   },
   "templates": {}
