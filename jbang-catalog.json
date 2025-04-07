@@ -2,20 +2,20 @@
   "catalogs": {},
   "aliases": {
     "jvminsight": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-jvminsight:RELEASE",
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-jvminsight:RELEASE@fatjar",
       "description": "Ask questions about your JVM using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jvminsight)",
       "java": "17+"
     },
     "kubernetes": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-kubernetes:RELEASE",
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-kubernetes:RELEASE@fatjar",
       "description": "Interact with your Kubernetes cluster using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/kubernetes)"
     },
     "containers": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-containers:RELEASE",
-      "description": "Star, stop, and inspect containers using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/containers)"
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-containers:RELEASE@fatjar",
+      "description": "Start, stop, and inspect containers using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/containers)"
     },
     "filesystem": {
-      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:0.0.4",
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-filesystem:0.0.4@fatjar",
       "description": "Interact with your filesystem using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/filesystem)"
     },
     "jdbc": {
