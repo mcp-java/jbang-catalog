@@ -21,6 +21,10 @@
     "jdbc": {
       "script-ref": "jdbc@quarkiverse/quarkus-mcp-servers",
       "description": "Access any JDBC database using MCP. See [here](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jdbc)"
+    },
+    "wildfly": {
+      "script-ref": "org.wildfly.mcp:wildfly-mcp-server-stdio:1.0.0.Alpha3:runner",
+      "description": "Interact with your WildFly server using MCP. See [here](https://github.com/wildfly-extras/wildfly-mcp/tree/main/wildfly-mcp-server)"
     }
   },
   "templates": {}
